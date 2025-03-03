@@ -19,11 +19,11 @@
         if (targetUrl) {
             let directLink = document.createElement('a');
             directLink.href = targetUrl;
-            directLink.textContent = "🔗 Direkter iCloud-Link";
+            directLink.textContent = "🔗 iCloud-Link";
             directLink.style.display = "block";
             directLink.style.marginTop = "5px";
             directLink.style.fontWeight = "bold";
-            directLink.style.color = "#007AFF"; // iCloud-Blauton
+            directLink.style.color = "#ffffff"; // iCloud-Blauton
             directLink.style.textDecoration = "none";
 
             // Link neben dem Button hinzufügen
